@@ -1,0 +1,444 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.findproject{
+    opacity: 0;
+}
+/*Upperwala*/
+nav{
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px;
+}
+.top_logo{
+    margin: -20px;
+    width: 100px;
+    height: 80px;
+}
+nav>h3{
+    margin-top: 8px;
+}
+nav>h3>a{
+    text-decoration: none;
+    color: black;
+}
+nav>select{
+    background-color: #ffffff;
+    border: 0;
+    margin: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+select>option{
+    font-weight: 600;
+}
+/*Main Box(Badawala)*/
+header{
+    margin-left: 13%;
+    margin-top: 40px;
+}
+
+.card_1{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 1000px;
+    height: 400px;
+    font-size: 30px;
+    background-color: #ebf1fd;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px;
+}
+.card_1>h2{
+    font-weight: bolder;
+    box-shadow: 0px 100px 112px #b3cbfd;
+}
+.card_1>p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+/*Design wala*/
+.stars{
+ filter: brightness(60%);
+    width: 250px;
+    height: auto;
+    margin-top: -500px;
+    margin-left: -10px;
+}
+/*Start Button*/
+#start{
+    width: 150px;
+    height: 60px;
+    border-right-style: double;
+    border-bottom-style: double;
+    margin: 20px;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* border-color: black; */
+}
+#start:hover{
+    background-color: #b4b4b4;
+    box-shadow: 2px 2px 0px;
+}
+main{
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    display: flex;
+}
+/*Small Cards ka heading*/
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+/*Card 2*/
+.card_2{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.card_2>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card_2>p{
+    font-size: 14px;
+}
+.language{
+    border: 0px solid black;
+    flex-direction: row;
+    background-color: #f4f6fa;
+    padding: 7px 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+.language>a{
+    color: black;
+    text-decoration: none;
+    
+}
+.foot{
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.foot>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #b53f3f94; 
+    text-decoration: none;
+    justify-content:end;
+}
+.card_2:hover{
+    box-shadow: 4px 4px 0px #c3d4f7;
+    margin-left: -2px;
+    overflow: hidden;
+
+}
+/*Card 3*/
+.card_3{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.card_3>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card_3>p{
+    font-size: 14px;
+}
+.language>a{
+    color: black;
+    text-decoration: none;
+    
+}
+.foot{
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.foot>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #b53f3f94; 
+    text-decoration: none;
+    justify-content:end;
+}
+.card_3>.foot{
+    margin-top: 70px;
+}
+.card_3:hover{
+    box-shadow: 4px 4px 0px #c3d4f7;
+    margin-left: -2px;
+    overflow: hidden;
+
+}
+.card_4{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.card_4>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card_4>p{
+    font-size: 14px;
+}
+
+.language>a{
+    color: black;
+    text-decoration: none;
+    
+}
+.foot{
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.foot>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #b53f3f94; 
+    text-decoration: none;
+    justify-content:end;
+}
+.card_4:hover{
+    box-shadow: 4px 4px 0px #c3d4f7;
+    margin-left: -2px;
+    overflow: hidden;
+
+}
+/*Card 6*/
+.card_5{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.card_5>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card_5>p{
+    font-size: 14px;
+}
+.language>a{
+    color: black;
+    text-decoration: none;
+    
+}
+.card_5>.foot{
+    text-align: end;
+    margin-top: 55px;
+    margin-right: 20px;
+}
+.foot>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #2a1b1b94;
+    text-decoration: none;
+    justify-content:end;
+}
+.card_5:hover{
+    box-shadow: 4px 4px 0px #c3d4f7;
+    margin-left: -2px;
+    overflow: hidden;
+}
+/*card 6*/
+.card_6{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.card_6>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card_6>p{
+    font-size: 14px;
+}
+.language>a{
+    color: black;
+    text-decoration: none;
+    
+}
+.card_6>.foot{
+    text-align: end;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.card_6:hover{
+    box-shadow: 4px 4px 0px #c3d4f7;
+    margin-left: -2px;
+    overflow: hidden;
+}
+/*Card 7*/
+.card_7{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.card_7>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card_7>p{
+    font-size: 14px;
+}
+.language>a{
+    color: black;
+    text-decoration: none;
+    
+}
+.card_7>.foot{
+    text-align: end;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.card_7:hover{
+    box-shadow: 4px 4px 0px #c3d4f7;
+    margin-left: -2px;
+    overflow: hidden;
+}
+/*card 8*/
+.card_8{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.card_8>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card_8>p{
+    font-size: 14px;
+}
+.language>a{
+    color: black;
+    text-decoration: none;
+    
+}
+.card_8>.foot{
+    text-align: end;
+    margin-top: 55px;
+    margin-right: 20px;
+}
+.card_8:hover{
+    box-shadow: 4px 4px 0px #c3d4f7;
+    margin-left: -2px;
+    overflow: hidden;
+}
+.browse{
+    padding: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 10px;
+    grid-gap: 20px;
+}
+.grid-item{
+    background-color: #dde6f7;
+    border: 1px solid rgb(0 0 0 / 100%);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item>a{
+    font-size: 15px; 
+    color: black;
+    text-decoration: none;   
+}
+.grid-item:hover{
+    background-color: #bdd3fc;
+}
+.more{
+    text-align: center;
+}
+.niche{
+    background-color: rgb(39, 38, 38);
+    display: flex; 
+}
+.niche>img{
+    width: 150px;
+    background-color: rgb(30, 30, 30);
+    height: 150px;
+    margin: 30px;
+    margin-left: 30px;
+    border: 1px solid #c3d4f7;
+  
+    border-radius: 20px;
+    animation-name: coding;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+@keyframes coding{
+    from{
+        margin-left: 1230px;
+        transform: rotateZ(20deg);
+          box-shadow: 7px 2px 10px white;
+    }
+    to{
+        box-shadow: -7px 2px 10px white;
+        margin-left: 20px;
+        transform: rotateZ(-20deg);
+    }
+}
