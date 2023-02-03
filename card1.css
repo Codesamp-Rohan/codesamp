@@ -1,0 +1,85 @@
+*{
+    /*font-family: 'Fjalla One', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 60px;
+    height: 61px;
+    margin-bottom: 362px;
+    margin-left: -374px;
+    /* margin-top: -20px; */
+    /* padding-bottom: 20px; */
+}
+.card{
+    padding-top: 0px;
+    margin-left: 300px;
+    margin-top: 150px;
+    border: 1px solid black;
+    width: 834px;
+    height: 501px;
+    background: -webkit-linear-gradient(0deg, rgb(218, 136, 136)30%, rgb(255, 255, 255)31%);
+    border-radius: 30px;
+    /*box-shadow: 12px 12px 20px #da8888;*/
+    transition: 600ms;
+}
+.card:hover{
+     box-shadow: 12px 12px 10px #dd6d6d;
+     margin-left: 289px; 
+}
+.shoes:hover{
+    transform: rotateZ(0deg);
+}
+.shoes{
+    margin-top: 52px;
+    width: 380px;
+    height: auto;
+    transform: rotateZ(-20deg);
+    transition: 1s;
+}
+.content{
+    z-index: auto;
+    margin-top: -378px;
+    margin-left: 816px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    gap: 40px;
+    transition: 600ms;
+}
+.content:hover{
+    margin-left: 815px;
+}
+.content>h3{
+    font-weight: 100;
+
+}
+.content>h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.content>h4{
+    font-weight: 100;
+}
+.content>b{
+    font-weight: 500;
+}
+.buy{
+    width: 180px;
+    height: 40px;
+    background-color: #dd6d6d;
+    border: 0px;
+    border-radius: 50px;
+    transition: 500ms;
+}
+.buy>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.buy:hover{
+    background-color: #a14946;
+    box-shadow: 3px 3px 0px #e66b67;
+}
